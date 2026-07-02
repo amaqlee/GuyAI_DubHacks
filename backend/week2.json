@@ -1,0 +1,87 @@
+{
+  "inventory": [
+    { "item_name": "Espresso", "count": 300},
+    { "item_name": "Americano", "count": 300},
+    { "item_name": "Latte", "count": 250},
+    { "item_name": "Cappuccino", "count": 200},
+    { "item_name": "Iced Coffee", "count": 250},
+    { "item_name": "Matcha Latte", "count": 200},
+    { "item_name": "Croissant", "count": 100},
+    { "item_name": "Muffin", "count": 100},
+    { "item_name": "Bagel", "count": 80}
+  ],
+  
+  "budget": {
+    "total_weekly_budget": 3000,
+    "allocated": {
+      "inventory": 1200,
+      "staff_wages": 1000,
+      "marketing": 200,
+      "maintenance": 100,
+      "rent": 500
+    }
+  },
+
+  "sales": [
+    { "item_name": "Espresso", "current_price": 3.75, "units_sold": 160},
+    { "item_name": "Americano", "current_price": 4.00, "units_sold": 210},
+    { "item_name": "Latte", "current_price": 4.20, "units_sold": 200},
+    { "item_name": "Cappuccino", "current_price": 4.25, "units_sold": 190},
+    { "item_name": "Iced Coffee", "current_price": 4.00, "units_sold": 150},
+    { "item_name": "Matcha Latte", "current_price": 5.00, "units_sold": 220},
+    { "item_name": "Croissant", "current_price": 4.00, "units_sold": 100},
+    { "item_name": "Muffin", "current_price": 3.50, "units_sold": 85},
+    { "item_name": "Bagel", "current_price": 3.20, "units_sold": 70}
+  ],
+
+  "legislation": {
+    "pricing_restrictions": [
+      "No price increases above 15% within a single quarter.",
+      "Must include sales tax in listed menu prices.",
+      "Minimum wage compliance required for all baristas.",
+      "Discounts cannot exceed 50% of listed price without manager approval."
+    ]
+  },
+
+  "product_information": [
+    {
+      "item_name": "Espresso",
+      "summary": "A concentrated shot of coffee made by forcing hot water through finely-ground beans. Sourced from sustainable farms in Colombia."
+    },
+    {
+      "item_name": "Americano",
+      "summary": "An espresso shot with hot water at a 1:3 ratio, for those who prefer a lighter taste."
+    },
+    {
+      "item_name": "Latte",
+      "summary": "Espresso with steamed milk and a layer of thin foam. Available with cow's milk or oat milk."
+    },
+    {
+      "item_name": "Cappuccino",
+      "summary": "Espresso with equal parts steamed milk and milk foam, topped with cocoa powder."
+    },
+    {
+      "item_name": "Iced Coffee",
+      "summary": "Brewed coffee poured over ice, served unsweetened or sweetened."
+    },
+    {
+      "item_name": "Matcha Latte",
+      "summary": "Fresh twist on a classic latte, powdered green tea replaces coffee for this beverage."
+    },
+    {
+      "item_name": "Croissant",
+      "summary": "Flaky, buttery pastry baked fresh daily from local ingredients."
+    },
+    {
+      "item_name": "Muffin",
+      "summary": "Soft baked good that pairs well with coffee."
+    },
+    {
+      "item_name": "Bagel",
+      "summary": "A dense and doughy breakfast classic."
+    }
+
+  ]
+}
+
+
