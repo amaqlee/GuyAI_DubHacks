@@ -14,7 +14,6 @@ How to run guyAI locally:
 -  Open a terminal and navigate to the backend folder
 ```bash
 cd guyAI/backend
-python3 app.py
 ```
 -  Set the API Key
 ```bash
